@@ -1,4 +1,8 @@
+asgiref==3.8.1
 Django==5.0.4
-psycopg2-binary==2.9.6  # Якщо використовуєте PostgreSQL
-Pillow==9.3.0  # Для роботи з зображеннями
-django-crispy-forms==1.14.0  # Якщо використовуєте django-crispy-forms
+django-crispy-forms==1.14.0
+Pillow==9.3.0
+psycopg2-binary==2.9.6
+sqlparse==0.5.0
+telegram==0.0.1
+typing_extensions==4.11.0
