@@ -119,7 +119,7 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Шлях до зібраних (зібраних) статичних файлів.
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles_build', 'static')
 
 # Список директорій, в яких Django шукатиме статичні файли під час розробки.
 STATICFILES_DIRS = [
